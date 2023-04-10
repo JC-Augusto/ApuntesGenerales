@@ -1,0 +1,14 @@
+Para cambiar version de nodeJs facilmente se instalo: nvm-windows
+link repo: https://github.com/coreybutler/nvm-windows
+
+IMPORTANTE: Para usar los comandos, abrir cmd como Adminstrador. 
+
+- para ver la version de nvm: nvm --version
+- para instalar una nueva version: nvm install numeroVersion (ej: 12 ó 12.16 etc)
+- para ver la lista de versiones que ya hay: nvm list
+- para cambiar de version: nvm use numeroVersion
+
+-para confirmar la version de node que se esta usando(cambia con el nvm): node --version
+
+
+

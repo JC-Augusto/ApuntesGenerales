@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 30px; /*tamaño en pixeles*/
+    font-family: sans-serif; /*Tipo de letra*/
+    font-weight: bold; /*Marca el grosor o el peso de las letras*/
+}
+
+/*   
+
+UNA FORMA DE HACERLO EN UNA SOLA LINEA
+
+h1{
+    font: bold 30px sans-sefir;
+}
+
+*/
+
+h2{
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    font-weight: weight;
+}
+
+header,section,footer,aside,nav,article, hgroup{  /*Esto nos ayuda a ver lo que ocupa cada elemento*/
+    border: 1px solid black;
+    display: block;
+}
+
+body{
+    text-align: center;   /*alineacion del texto*/
+}
+
+.agrupacion{
+    width: 1000px;
+    background: darkgray;
+    margin: auto;               /*margin= margen externo*/
+    margin-top: 10px;
+    padding: 10px;              /*padding= margen interno*/
+
+    /*
+    margin: 10px auto;   esto manejaria (Y,X) en Y=10px y en X= auto
+    */
+}
+
+.header {
+    background: rgb(212, 192, 36);
+    border: 3px solid rgb(9, 96, 21);
+    margin: 5px;
+}
+
+.menu{
+    background: rgb(7, 56, 119);
+    padding: 15px;
+    text-align: left;
+}
+
+.menu li{     /*para modificar los li que tenga la clase menu*/
+    list-style: none;
+    padding: 5px;
+    font: bold 20px verdana;
+    display: inline-block;
+}
+
+.header h1 {
+    text-align: left;
+}
+
+.seccion {
+    margin: 10px;
+    background: rgb(86, 17, 191);
+    width: 60%;
+    float: left;
+}
+
+.columna{
+    margin:10px;
+    background: rgb(22, 157, 35);
+    width: 30%;
+    float: right;
+}
+
+.pie{
+    clear: both;
+    background: rgb(77, 8, 23);
+    color: white;
+    padding: 20px;
+}
+
+.logo{
+    width: 100px;
+    margin: 20px auto;
+}
+
+article{
+    background: rgb(192, 178, 19);
+    padding: 10px;
+    margin: 5px;
+}
+
+article footer{
+    text-align: right;
+    margin: 20px;
+}
+
+time{
+    color: rgb(119, 113, 113);
+}
+
+.columna blockquote{
+    border: 1px solid rgb(0, 0, 0);
+    padding: 30px;
+    margin: 10px;
+    background: rgb(179, 189, 34);
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<!--Se puede agregar por ID (se recomenda no usar 2 ID's Iguales... para seleccionar varios se usan las clases)-->
+
+<html lang="es"lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="Author" content="JCA">
+    <title>FirstWeb</title>
+    <style>
+        #barra {
+            background: black;
+            color: red;
+        }
+
+        #articulo1 {
+            background: yellow;
+            color: blueviolet;
+        }
+
+        #articulo2 {
+            background: black;
+            color: maroon;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>Mi blog</h1>
+    </header>
+
+    <nav id="barra">
+        <ul>
+            <li>Principal</li>
+            <li>Ayuda</li>
+            <li>Contacto</li>
+        </ul>
+    </nav>
+
+    <section>
+        <article id="articulo1">
+            <hgroup>
+                <h1>Titulo del primer articulo</h1>
+                <h2>Subtitulo del articulo1</h2>
+            </hgroup>
+            
+            <time datetime="06/10/2022"> Publicado el 06/10/2022</time>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut consequuntur, fuga neque sed itaque a pariatur! Doloremque odio cupiditate ut, sit culpa, ex officia maiores fugit ullam, dolore quam recusandae?</p>
+            <footer> 
+                piePag: comentarios (0)
+            </footer>
+            <img src="../01htmlPuro/images/jcaLogo.png">
+            <address> <!--No se necesita, pero es mejor-->
+                <a href="https://www.google.com/">Golgle</a>
+            </address>
+        </article >
+        <article id="articulo2">
+            <hgroup>
+                <h1>Titulo del segundo articulo</h1>
+                <h2>Subtitulo del articulo2</h2>
+            </hgroup>
+            <time datetime="06/10/2022"> Publicado el 06/10/2022</time>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat ipsam temporibus ducimus quisquam error voluptatem non aperiam delectus dolorem, similique excepturi, dolor mollitia distinctio illo cum? Rem corrupti distinctio ratione?</p>
+            <footer> piePag: comentarios(10) </footer>
+        </article>
+    </section>
+
+    <aside>
+        Archivo
+
+        Acerca de
+    </aside>
+
+    <footer>
+        Derechos reservados 2022
+    </footer>
+
+</body>
+</html>

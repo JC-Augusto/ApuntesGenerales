@@ -1,0 +1,5 @@
+para compilar el archivo y pasarlo a JS:
+    1. Se tiene que navegar hasta el archivo usando dir(ver carpetas) y cd (cambiarnos a esa capetas)
+    2. ya estando dentro de la carpeta escribir: tsc nombreArchivo.ts
+    3. para no tener que hacer el paso 2 en cada cambio, escribir: tsc nombreArchivo.ts -w
+    

@@ -1,0 +1,4 @@
+{
+    "go.coverOnSave": false,
+    "go.coverOnTestPackage": false
+}
